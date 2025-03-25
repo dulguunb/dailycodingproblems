@@ -1,6 +1,7 @@
 // pub struct Solution;
 
 
+pub struct Solution{}
 #[cfg(test)]
 mod tests {
     use super::Solution;
@@ -23,7 +24,6 @@ mod tests {
         assert_eq!(Solution::search_insert(vec![], 5), 0);
     }
 }
-pub struct Solution{}
 
 impl Solution {
     pub fn binary_search(nums: &Vec<i32>, target: i32, low: i32, high: i32) -> i32 {
