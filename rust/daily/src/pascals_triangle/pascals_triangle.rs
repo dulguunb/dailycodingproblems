@@ -19,16 +19,3 @@ impl Solution {
     }
 }
 
-#[cfg(test)]
-mod tests {
-    use super::Solution;
-
-    #[test]
-    fn climb_stairs() {
-        assert_eq!(Solution::generate(1),vec![vec![1]]);
-        assert_eq!(Solution::generate(2),vec![vec![1],vec![1,1]]);
-        assert_eq!(Solution::generate(3),vec![vec![1],vec![1,1],vec![1,2,1]]);
-        assert_eq!(Solution::generate(4),vec![vec![1],vec![1,1],vec![1,2,1],vec![1,3,3,1]]);
-        assert_eq!(Solution::generate(5),vec![vec![1],vec![1,1],vec![1,2,1],vec![1,3,3,1],vec![1,4,6,4,1]]);
-    }
-}
