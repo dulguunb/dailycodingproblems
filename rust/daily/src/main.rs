@@ -18,6 +18,9 @@ mod roman_numerals;
 mod find_smallest_letter;
 mod count_negative_numbers;
 mod find_first_last;
+mod find_right_interval;
+mod time_based_key_value;
+mod snap_shot_array;
 
 use search_insert::search_insert::Solution; // Import the Solution struct
 
